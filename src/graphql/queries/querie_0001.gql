@@ -1,0 +1,6 @@
+query GET_USER {
+  user(email: "italosm29@gmail.com") {
+    id
+    email
+  }
+}
