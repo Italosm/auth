@@ -6,9 +6,9 @@ const server = new ApolloServer({
   resolvers,
   context: () => {
     return {
-      msg: "Hello World"
-    }
-  }
+      msg: 'Hello World',
+    };
+  },
 });
 
 server.listen(4003).then(({ url }) => {
